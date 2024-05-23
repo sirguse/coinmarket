@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+header nav .navbar-top {
+  border: 1px solid rgb(239, 242, 245);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+header nav .navbar-top-list {
+  margin: 0;
+  display: flex;
+  width: 50%;
+}
+header nav .navbar-top-list li {
+  font-size: 11px;
+  color: rgb(109, 121, 142);
+  font-weight: 600;
+}
+header nav .navbar-top-list li a {
+  text-decoration: none;
+  font-weight: 500;
+}
+header nav .navbar-top-list li i {
+  color: rgb(68, 106, 251);
+}
+header nav .navbar-top-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header nav .navbar-top-right-dropdown {
+  font-size: 12px;
+  color: rgb(42, 49, 60);
+  font-weight: 600;
+}
+header nav .navbar-top-right-dropdownusd i {
+  font-size: 12px;
+}
+header nav .navbar-top-right-dropdownusd span {
+  font-weight: 600;
+  font-size: 12px;
+}
+header nav .navbar-top-right-space {
+  width: 1px;
+  border-left: 1px solid rgb(239, 242, 245);
+  margin: 0 8px;
+}
+header nav .navbar-top-right-buttons {
+  display: flex;
+  align-items: center;
+}
+header nav .navbar-top-right-buttons-getlisted button {
+  border: 0px;
+  border-radius: 10px;
+  font-weight: 600;
+  height: 33px;
+  width: 100px;
+  font-size: 12px;
+}
+header nav .navbar-top-right-buttons-api button {
+  border: 0px;
+  border-radius: 10px;
+  width: 50px;
+  height: 33px;
+  font-weight: 600;
+  font-size: 12px;
+}
+header nav .navbar-top-right-buttons-login button {
+  border: 1px solid rgb(56, 97, 251);
+  background-color: white;
+  height: 33px;
+  width: 60px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 12px;
+  color: rgb(56, 97, 251);
+}
+header nav .navbar-top-right-buttons-signup button {
+  height: 33px;
+  background-color: rgb(56, 97, 251);
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  border: 0px;
+  border-radius: 10px;
+  width: 70px;
+}
+header .bottom {
+  height: 77px;
+  border: 1px solid rgb(239, 242, 245);
+}
+header .bottom-left-list {
+  width: 100%;
+  margin-bottom: 0;
+  padding-left: 50px;
+}
+header .bottom-left-list li {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+section .text h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+section .text h3 {
+  font-size: 16px;
+  color: rgb(88, 102, 143);
+}
+section .text h3 span {
+  font-weight: 600;
+}
+section .text h3 u {
+  color: rgba(128, 138, 157, 0.788);
+}
+section .crypto-box-nav-left-list {
+  color: rgb(109, 121, 142);
+  font-size: 13px;
+  font-weight: 600;
+}
+section .crypto-box-nav-right-pos ul li {
+  font-size: 13px;
+}
+section .crypto-box-nav-right-pos ul div button {
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  width: 120%;
+  height: 30px;
+  font-size: 14px;
+}
+section .crypto-box-nav .crypto-box-nav-bottom {
+  border-top: 1px solid rgb(239, 242, 245);
+  border-bottom: 1px solid rgb(239, 242, 245);
+  height: 50px;
+}
+section .crypto-box-nav .crypto-box-nav-bottom div span {
+  font-weight: 600;
+  font-size: 13px;
+}
+section .crypto-box-nav .crypto-box-nav-bottom-hash {
+  padding-left: 65px;
+}
+section .crypto-box-nav .crypto-box-nav-bottom-name {
+  padding-left: 25px;
+}
+section .crypto-box-nav .crypto-box-nav-bottom-price {
+  padding-left: 240px;
+}
+section .crypto-box-nav .crypto-box-nav-bottom-1h {
+  padding-left: 40px;
+}
+section .crypto-box-nav .crypto-box-nav-bottom-24h {
+  padding-left: 38px;
+}
+section .crypto-box-nav .crypto-box-nav-bottom-7d {
+  padding-left: 53px;
+}
+section .crypto-box-nav .crypto-box-nav-bottom-market {
+  padding-left: 60px;
+}
+section .crypto-box-nav .crypto-box-nav-bottom-volume {
+  padding-left: 45px;
+}
+section .crypto-box-nav .crypto-box-nav-bottom-circ {
+  padding-left: 60px;
+}
+section .crypto-box-nav .crypto-box-nav-bottom-last {
+  padding-left: 130px;
+}
+section .crypto-box-nav-cryptos {
+  height: 80px;
+  border-bottom: 1px solid rgb(239, 242, 245);
+}
+section .crypto-box-nav-cryptos i {
+  font-size: 12px;
+  color: rgb(166, 177, 194);
+}
+section .crypto-box-nav-cryptos-image span {
+  font-size: 14px;
+}
+section .crypto-box-nav-cryptos-image i {
+  font-size: 24px;
+}
+section .crypto-box-nav-cryptos-price {
+  padding-left: 200px;
+}
+section .crypto-box-nav-cryptos-1h {
+  padding-left: 20px;
+}/*# sourceMappingURL=style.css.map */

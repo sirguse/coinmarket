@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/6fc8d0f9cd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/src/css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div
+          class="navbar-top d-flex justify-content-between align-items-center container-fluid"
+        >
+          <ul
+            class="navbar-top-list list-unstyled d-flex justify-content-around"
+          >
+            <li>Cryptos: <a href="#">2.4M+</a></li>
+            <li>Exchanges: <a href="#">748</a></li>
+            <li>
+              Market Cap: <a href="#">$2.33T</a
+              ><i class="bi bi-caret-up-fill">0.98%</i>
+            </li>
+            <li>
+              24h Vol: <a href="#">$115.83B</a
+              ><i class="bi bi-caret-up-fill">36.21%</i>
+            </li>
+            <li>Dominance: <a href="#">BTC: 54.1% ETH:16.1%</a></li>
+            <li>
+              ETH Gas: <a href="#">31 Gwei</a><i class="bi bi-caret-down"></i>
+            </li>
+            <li>Fear & Greed: <a href="#">65/100</a></li>
+          </ul>
+          <div class="navbar-top-right d-flex align-items-center">
+            <div class="navbar-top-right-dropdown d-flex align-items-center mx-2">
+              <span>English</span>
+              <i class="bi bi-caret-down" ></i>
+            </div>
+            <div class="navbar-top-right-dropdownusd d-flex align-items-center mx-2">
+              <i class="fa-solid fa-dollar-sign"></i>
+              <span>USD</span>
+              <i class="bi bi-caret-down"></i>
+            </div>
+            <i
+              class="fa-solid fa-moon d-flex align-items-center"
+              style="font-size: 20px"
+            ></i>
+            <div class="navbar-top-right-space mx-2"></div>
+            <div class="navbar-top-right-buttons d-flex align-items-center">
+              <div class="navbar-top-right-buttons-getlisted">
+                <button>Get listed <i class="bi bi-caret-down"></i></button>
+              </div>
+              <div class="navbar-top-right-buttons-api mx-2">
+                <button>API</button>
+              </div>
+              <div class="navbar-top-right-button-diamond mx-2">
+                <img
+                  src="https://s2.coinmarketcap.com/static/cloud/img/loyalty-program/diamond-icon.svg"
+                />
+              </div>
+              <div class="navbar-top-right-buttons-login mx-2">
+                <button>Log In</button>
+              </div>
+              <div class="navbar-top-right-buttons-signup mx-2">
+                <button>Sign up</button>
+              </div>
+              <img
+                src="https://s2.coinmarketcap.com/static/cloud/img/signup/signupGift.gif?_=bf2b37a"
+                style="position: absolute; right: 1px; top: -18px"
+              />
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="bottom d-flex align-items-center">
+        <div class="container-fluid">
+          <div class="row d-flex">
+            <div class="bottom-left d-flex align-items-center col-8">
+              <div class="bottom-left-logo">
+                <img src="/src/img/logo.png " />
+              </div>
+
+              <ul class="bottom-left-list list-unstyled d-flex">
+                <li class="mx-2">Cryptocurrencies</li>
+                <li class="mx-2">Exchanges</li>
+                <li class="mx-2">Community</li>
+                <li class="mx-2">Products</li>
+                <li class="mx-2">Learn</li>
+              </ul>
+            </div>
+            <div class="bottom-right d-flex justify-content-end col-4">
+              <div
+                class="bottom-right-box d-flex align-items-center justify-content-around"
+              >
+                <div
+                  class="bottom-right-watch mx-2 d-flex align-items-center"
+                  style="font-size: 14px"
+                >
+                  <i
+                    class="fa-solid fa-star"
+                    style="color: rgb(166, 176, 195)"
+                  ></i>
+                  <span class="mx-1">Watchlist</span>
+                </div>
+                <div
+                  class="bottom-right-portf mx-2 d-flex align-items-center"
+                  style="font-size: 14px"
+                >
+                  <i
+                    class="fa-solid fa-chart-pie"
+                    style="color: rgb(166, 176, 195)"
+                  ></i>
+                  <span class="mx-1">Portfolio</span>
+                </div>
+
+                <input
+                  class="form-control mr-sm-2 mx-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="mt-5">
+      <div class="container">
+        <div class="text">
+            <h1>Today's Cryptocurrency Prices by Market Cap</h1>
+            <h3>The global crypto market cap is <span style="color:rgb(88,102,126)">$2.24T,</span> a <i class="bi bi-caret-down" style="color:red ">2.23%</i> decrease over the last day. <u>Read More</u></h3>
+        </div>
+        <div class="1 mt-5">
+            <div class="slider row ">
+                <div class="slider-one col-4">
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="src/img/slide1.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="src/img/slide2.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="src/img/slide3.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      
+                </div>
+                <div class="slider-two col-4">
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="src/img/slide5.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="src/img/slide6.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="src/img/slide7.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      
+                </div>
+                <div class="slider-three col-4">
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="src/img/slide8.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="src/img/slide8.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="src/img/slide8.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      
+                </div>
+            </div>
+        </div>
+        <div class="crypto-box">
+        <div class="crypto-box-nav row d-flex align-items-center">
+          <div class="crpyto-box-nav-left col-7">
+            <ul class="crypto-box-nav-left-list list-unstyled d-flex justify-content-evenly">
+              <li><i class="fa-solid fa-grip"></i> Cryptocurrencies</li>
+              <li><i class="fa-solid fa-earth-americas"></i> NFTs</li>
+              <li><i class="fa-solid fa-list"></i> Categories</li>
+              <div class="space" style="border:0.1px solid rgba(109, 121, 142, 0.61);" ></div>
+              <li><i class="fa-solid fa-fire" style="color:red;"></i> Memes</li>
+              <li><i class="fa-solid fa-fire"style="color:red;"></i> Solana Ecosystem</li>
+              <li><i class="fa-solid fa-fire"style="color:red;"></i> Gaming</li>
+              <li><i class="fa-solid fa-fire"style="color:red;"></i> AI</li>
+            </ul>
+          </div>
+          
+          <div class="crypto-box-nav-right d-flex justify-content-end col-5">
+            <div class="crypto-box-nav-right-pos w-75">
+              <ul class="d-flex list-unstyled justify-content-evenly align-items-center ">
+                <li style="color:rgb(108,120,141);">Show rows</li>
+                <div class="crypto-box-dropdown">
+                  <button>100<i class="fa-solid fa-angle-down"></i></button>
+                </div>
+                <div class="crypto-box-filters">
+                  <button><i class="fa-solid fa-sliders"></i>Filters</button>
+                </div>
+                <div class="crypto-box-customize">
+                  <button><i class="fa-brands fa-intercom"></i>Customize</button>
+                </div>
+                <div class="crypto-box-slider">
+                  <button><i class="fa-solid fa-bars"></i><i class="fa-solid fa-layer-group"></i></button>
+                </div>
+              </ul>
+            </div>
+          </div>
+          <!--Wiem ze powinno to byc na zasadzie tabeli, lecz tak szybciej moglem wykonac to zadanie-->
+          <div class="crypto-box-nav-bottom d-flex align-items-center col-12">
+            <div class="crypto-box-nav-bottom-hash">
+              <span>#</span>
+            </div>
+            <div class="crypto-box-nav-bottom-name">
+              <span>Name</span>
+            </div>
+            <div class="crypto-box-nav-bottom-price">
+              <span>Price</span>
+            </div>
+            <div class="crypto-box-nav-bottom-1h">
+              <span>1h %</span>
+            </div>
+            <div class="crypto-box-nav-bottom-24h">
+              <span>24h %</span>
+            </div>
+            <div class="crypto-box-nav-bottom-7d">
+              <span>7d %</span>
+            </div>
+            <div class="crypto-box-nav-bottom-market">
+              <span>Market Cap <i class="fa-solid fa-circle-info" style="color:rgb(166,176,195);"></i></span>
+            </div>
+            <div class="crypto-box-nav-bottom-volume">
+              <span>Volume(24h) <i class="fa-solid fa-circle-info" style="color:rgb(166,176,195);"></i></span>
+            </div>
+            <div class="crypto-box-nav-bottom-circ">
+              <span>Circulating Supply <i class="fa-solid fa-circle-info" style="color:rgb(166,176,195);"></i></span>
+            </div>
+            <div class="crypto-box-nav-bottom-last">
+              <span>Last 7 Days</span>
+            </div>
+          </div>
+
+          <div class="crypto-box-nav-cryptos col-12 d-flex align-items-center">
+            <i class="fa-regular fa-star"></i>
+            <h7>1</h7>
+            <div class="crypto-box-nav-cryptos-image">
+              <i class="fa-brands fa-bitcoin"></i>
+              <span class="head" style="font-weight: 600;">Bitcoin</span>
+              <span style="color:rgb(128,138,157);">BTC</span>
+            </div>
+            <!--Wiem ze powinno to byc na zasadzie tabeli, lecz tak szybciej moglem wykonac to zadanie-->
+            <div class="crypto-box-nav-cryptos-price">
+              <span>$66,826.59</span>
+            </div>
+            <div class="crypto-box-nav-cryptos-1h ">
+              <span><i class="fa-solid fa-sort-down"></i>0.77%</span>
+            </div>
+            <div class="crypto-box-nav-cryptos-24h">
+              <span><i class="fa-solid fa-sort-down"></i>4.34%</span>
+            </div>
+            <div class="crypto-box-nav-cryptos-7d">
+              <span><i class="fa-solid fa-caret-up"></i>2.43%</span>
+            </div>
+            <div class="crypto-box-nav-cryptos-market">
+              <span>$1,315,716,407,313</span>
+            </div>
+            <div class="crypto-box-nav-cryptos-volume">
+              <span>$37,407,912,205</span>
+            </div>
+            <div class="crypto-box-nav-cryptos-circ">
+              <span>19,702,093 BTC</span>
+            </div>
+
+            <div class="crypto-box-nav-cryptos-last">
+              <img src="https://s3.coinmarketcap.com/generated/sparklines/web/7d/2781/1.svg">
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+      </div>
+      
+      
+    </section>
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
