@@ -236,6 +236,7 @@ section {
 
         }
         &-image{
+          padding-left: 30px;
           span{
             font-size:14px;
           }
@@ -244,12 +245,42 @@ section {
           }
           
         }
+        div{
+          font-size:15px;
+          font-weight: 600;
+        }
         &-price{
-          padding-left: 200px;
+          padding-left: 124px;
         }
         &-1h{
-          padding-left: 20px;
+          padding-left: 40px;
+          
         }
+        &-24h{
+          padding-left:30px;
+        }
+        &-7d{
+          padding-left: 50px;
+        }
+        &-market{
+          padding-left: 30px;
+        }
+        &-volume{
+          padding-left: 30px;
+        }
+        &-circ{
+          padding-left: 50px;
+        }
+        &-last{
+          padding-left: 40px;
+        }
+        .star{
+          padding-left: 15px;
+        }
+        .he7{
+          padding-left: 32px;
+        }
+
       }
     }
   }

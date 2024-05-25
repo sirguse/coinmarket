@@ -187,15 +187,46 @@ section .crypto-box-nav-cryptos i {
   font-size: 12px;
   color: rgb(166, 177, 194);
 }
+section .crypto-box-nav-cryptos-image {
+  padding-left: 30px;
+}
 section .crypto-box-nav-cryptos-image span {
   font-size: 14px;
 }
 section .crypto-box-nav-cryptos-image i {
   font-size: 24px;
 }
+section .crypto-box-nav-cryptos div {
+  font-size: 15px;
+  font-weight: 600;
+}
 section .crypto-box-nav-cryptos-price {
-  padding-left: 200px;
+  padding-left: 124px;
 }
 section .crypto-box-nav-cryptos-1h {
-  padding-left: 20px;
+  padding-left: 40px;
+}
+section .crypto-box-nav-cryptos-24h {
+  padding-left: 30px;
+}
+section .crypto-box-nav-cryptos-7d {
+  padding-left: 50px;
+}
+section .crypto-box-nav-cryptos-market {
+  padding-left: 30px;
+}
+section .crypto-box-nav-cryptos-volume {
+  padding-left: 30px;
+}
+section .crypto-box-nav-cryptos-circ {
+  padding-left: 50px;
+}
+section .crypto-box-nav-cryptos-last {
+  padding-left: 40px;
+}
+section .crypto-box-nav-cryptos .star {
+  padding-left: 15px;
+}
+section .crypto-box-nav-cryptos .he7 {
+  padding-left: 32px;
 }/*# sourceMappingURL=style.css.map */
